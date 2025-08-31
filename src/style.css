@@ -136,25 +136,29 @@ nav {
   text-align: center;
   padding: 0 5%;
   position: relative;
+  background-image: url("../public/uploads/images/bg.png");
+  background-position: center;
+  background-size: cover;
   
 }
 
 .hero-content {
-  max-width: 900px;
   animation: fadeInUp 1s ease-out;
 }
 
 .hero h1 {
   font-size: clamp(3rem, 8vw, 7rem);
   font-weight: 800;
-  line-height: 1.1;
+  line-height: 1.05;
   margin-bottom: 1.5rem;
-  background: linear-gradient(45deg, #00cc44, #ff8800);
+  background: linear-gradient(90deg, green, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   background-size: 400% 400%;
   animation: textShimmer 4s ease-in-out infinite;
+
+  margin-left: 50%;
 }
 
 @keyframes textShimmer {
@@ -175,10 +179,11 @@ nav {
 
 .hero p {
   font-size: 1.25rem;
-  color: #555555;
+  color: black;
   margin-bottom: 3rem;
   line-height: 1.6;
   animation: fadeInUp 1s ease-out 0.3s both;
+  margin-left: 50%;
 }
 
 .cta-buttons {
@@ -320,7 +325,7 @@ nav {
 }
 
 .stat-card {
-  background: #ffffff;
+  background: orange;
   border: 1px solid rgba(0, 204, 68, 0.2);
   border-radius: 20px;
   padding: 2.5rem 2rem;
@@ -349,15 +354,15 @@ nav {
 
 .stat-card:hover {
   transform: translateY(-10px);
-  background: #ffffff;
+  background: rgb(236, 233, 5);
   box-shadow: 0 20px 40px rgba(0, 204, 68, 0.1);
-  border-color: rgba(0, 204, 68, 0.4);
+  border-color: rgba(160, 204, 0, 0.4);
 }
 
 .stat-number {
   font-size: 3rem;
   font-weight: 800;
-  background: linear-gradient(45deg, #00cc44, #ff8800);
+  background: rgba(0, 0, 0, 0.363);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -365,7 +370,7 @@ nav {
 }
 
 .stat-label {
-  color: #555555;
+  color: white;
   font-weight: 500;
 }
 

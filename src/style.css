@@ -144,21 +144,21 @@ nav {
 
 .hero-content {
   animation: fadeInUp 1s ease-out;
+  width: 900px;
+  margin-top: 20rem;
 }
 
 .hero h1 {
-  font-size: clamp(3rem, 8vw, 7rem);
+  font-size: clamp(2rem, 6vw, 6rem);
   font-weight: 800;
   line-height: 1.05;
-  margin-bottom: 1.5rem;
-  background: linear-gradient(90deg, green, black);
+  background: linear-gradient(90deg, white, orange);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   background-size: 400% 400%;
   animation: textShimmer 4s ease-in-out infinite;
 
-  margin-left: 50%;
 }
 
 @keyframes textShimmer {
@@ -178,12 +178,11 @@ nav {
 }
 
 .hero p {
-  font-size: 1.25rem;
-  color: black;
+  font-size: 2rem;
+  color: white;
   margin-bottom: 3rem;
   line-height: 1.6;
   animation: fadeInUp 1s ease-out 0.3s both;
-  margin-left: 50%;
 }
 
 .cta-buttons {
@@ -585,7 +584,7 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  color: #888888;
+  color: whitesmoke;
   font-size: 0.9rem;
   animation: bounce 2s infinite;
 }

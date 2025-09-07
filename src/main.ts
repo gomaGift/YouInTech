@@ -1,3 +1,8 @@
+
+import { toggleMenuBar } from "./utils";
+
+toggleMenuBar()
+
 // Smooth scrolling
 document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {

@@ -142,7 +142,6 @@ nav {
   background-image: url("../public/uploads/images/bg.png");
   background-position: center;
   background-size: cover;
-  
 }
 
 .hero-content {
@@ -161,7 +160,6 @@ nav {
   background-clip: text;
   background-size: 400% 400%;
   animation: textShimmer 4s ease-in-out infinite;
-
 }
 
 @keyframes textShimmer {
@@ -544,7 +542,6 @@ nav {
   cursor: pointer;
 }
 
-
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .menu-toggle {
@@ -553,7 +550,17 @@ nav {
 
   .nav-links {
     display: none;
-    gap: 1rem;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    background-color: orangered;
+    align-items: center;
+    padding: 1rem 2rem;
+    }
+
+  .nav-links.show {
+    display: flex;
   }
 
   .hero {
@@ -586,7 +593,6 @@ nav {
   }
 }
 
-
 /* Scroll indicator */
 .scroll-indicator {
   position: absolute;
@@ -617,7 +623,3 @@ nav {
     transform: translateX(-50%) translateY(-5px);
   }
 }
-
-
-
-

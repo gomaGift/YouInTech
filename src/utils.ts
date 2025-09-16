@@ -13,7 +13,7 @@ export function smoothNavigation() {
 
     document.querySelectorAll<HTMLAnchorElement>(".nav-links a").forEach((link) => {
       link.addEventListener("click", async (e) => {
-        e.preventDefault(); // stop full reload
+        // e.preventDefault(); // stop full reload
     
         const url = link.getAttribute("href");
         if (!url) return;
@@ -47,12 +47,13 @@ export function smoothNavigation() {
 
 // chat bot
 export function loadChatbot() {
-  const script = document.createElement("script")
-  script.src =
-    "https://cdn.jotfor.ms/agent/embedjs/019951a1fd0c7220bdc72d89988f2d1c571a/embed.js";
-  script.async = true
-  script.defer = true
-  document.body.appendChild(script)
+  // const script = document.createElement("script")
+  // script.src =
+  //   "https://cdn.jotfor.ms/agent/embedjs/019951a1fd0c7220bdc72d89988f2d1c571a/embed.js";
+  // script.async = true
+  // script.defer = true
+  // document.body.appendChild(script)
+  console.log("this")
 }
 
 export async function loadComponent(id: string, file: string) {

@@ -1,10 +1,15 @@
 
-import { toggleMenuBar } from "./utils";
+import { loadComponent, toggleMenuBar, showCaseFilterFunction, smoothNavigation, loadChatbot } from "./utils";
 
-toggleMenuBar()
+loadComponent(".header-placeholder", "header.html").then(() => {
+  toggleMenuBar()
+  // smoothNavigation()
+});
+
+showCaseFilterFunction()
 
 // Smooth scrolling
-document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((anchor) => {
+document.querySelectorAll<HTMLAnchorElement>('a').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
     const target = document.querySelector(this.href)
@@ -15,6 +20,8 @@ document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((anchor) =>
     }
   });
 });
+
+loadChatbot()
 
 
 

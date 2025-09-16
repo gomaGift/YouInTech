@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouInTech - Project Showcase</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="header-placeholder"></div>
+
+    <section class="showcase-hero">
+      <div class="showcase-hero-content">
+        <h1>Project Showcase</h1>
+        <p>
+          Discover innovative projects created by Zambia's brightest young
+          minds. From mobile apps to social enterprises, see how our community
+          is building solutions for tomorrow.
+        </p>
+      </div>
+    </section>
+
+    <section class="showcase-filter">
+      <div class="showcase-filter-buttons">
+        <button class="showcase-btn active" data-filter="all">
+          All Projects
+        </button>
+        <button class="showcase-btn" data-filter="mobile">Mobile Apps</button>
+        <button class="showcase-btn" data-filter="web">Web Development</button>
+        <button class="showcase-btn" data-filter="ai">
+          AI/Machine Learning
+        </button>
+        <button class="showcase-btn" data-filter="social">Social Impact</button>
+        <button class="showcase-btn" data-filter="fintech">FinTech</button>
+      </div>
+    </section>
+
+    <section class="showcase-projects">
+      <div class="showcase-grid">
+        <!-- Featured Project -->
+        <div class="showcase-card showcase-featured" data-category="mobile">
+          <div class="showcase-featured-image">📱</div>
+          <div class="showcase-featured-content">
+            <h3 class="showcase-title">AgriConnect Zambia</h3>
+            <p class="showcase-author">By Sarah Mwanza</p>
+            <p class="showcase-description">
+              A revolutionary mobile platform connecting smallholder farmers...
+            </p>
+            <div class="showcase-tags">
+              <span class="tag">Mobile App</span>
+              <span class="tag">Agriculture</span>
+              <span class="tag">Social Impact</span>
+              <span class="tag">React Native</span>
+            </div>
+            <div class="showcase-links">
+              <a href="#" class="showcase-link">View Demo</a>
+              <a href="#" class="showcase-link secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- FinTech Project -->
+        <div class="showcase-card" data-category="fintech">
+          <div class="showcase-image">💳</div>
+          <div class="showcase-content">
+            <h3 class="showcase-title">ZamPay Digital Wallet</h3>
+            <p class="showcase-author">By Michael Banda</p>
+            <p class="showcase-description">
+              Secure digital wallet for seamless mobile money transactions...
+            </p>
+            <div class="showcase-tags">
+              <span class="tag">FinTech</span>
+              <span class="tag">Mobile</span>
+              <span class="tag">Blockchain</span>
+            </div>
+            <div class="showcase-links">
+              <a href="#" class="showcase-link">Live Demo</a>
+              <a href="#" class="showcase-link secondary">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Development Project -->
+        <div class="showcase-card" data-category="web">
+          <div class="showcase-image">🌐</div>
+          <div class="showcase-content">
+            <h3 class="showcase-title">EduPortal Zambia</h3>
+            <p class="showcase-author">By Chanda Phiri</p>
+            <p class="showcase-description">
+              A web-based platform providing e-learning resources for
+              students...
+            </p>
+            <div class="showcase-tags">
+              <span class="tag">Web</span>
+              <span class="tag">Education</span>
+              <span class="tag">Vue.js</span>
+            </div>
+            <div class="showcase-links">
+              <a href="#" class="showcase-link">Visit Site</a>
+              <a href="#" class="showcase-link secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI / Machine Learning Project -->
+        <div class="showcase-card" data-category="ai">
+          <div class="showcase-image">🤖</div>
+          <div class="showcase-content">
+            <h3 class="showcase-title">HealthAI Diagnostics</h3>
+            <p class="showcase-author">By James Mulenga</p>
+            <p class="showcase-description">
+              AI-powered diagnostics tool for early disease detection...
+            </p>
+            <div class="showcase-tags">
+              <span class="tag">AI</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Healthcare</span>
+            </div>
+            <div class="showcase-links">
+              <a href="#" class="showcase-link">Try Demo</a>
+              <a href="#" class="showcase-link secondary">Docs</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Impact Project -->
+        <div class="showcase-card" data-category="social">
+          <div class="showcase-image">🌍</div>
+          <div class="showcase-content">
+            <h3 class="showcase-title">CleanWater Initiative</h3>
+            <p class="showcase-author">By Luwi Mwansa</p>
+            <p class="showcase-description">
+              Crowdsourced reporting app for water sanitation and access...
+            </p>
+            <div class="showcase-tags">
+              <span class="tag">Social Impact</span>
+              <span class="tag">Mobile App</span>
+              <span class="tag">Community</span>
+            </div>
+            <div class="showcase-links">
+              <a href="#" class="showcase-link">Explore</a>
+              <a href="#" class="showcase-link secondary">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase-cta">
+      <h2>Ready to Showcase Your Project?</h2>
+      <p>
+        Join our community of innovators and share your creation with thousands
+        of young entrepreneurs, mentors, and potential investors across Zambia.
+      </p>
+      <a href="#" class="btn">Submit Your Project</a>
+    </section>
+
+    <script src="./src/main.ts" type="module"></script>
+  </body>
+</html>

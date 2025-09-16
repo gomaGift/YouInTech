@@ -3,7 +3,7 @@ import { loadComponent, toggleMenuBar, showCaseFilterFunction, smoothNavigation,
 
 loadComponent(".header-placeholder", "header.html").then(() => {
   toggleMenuBar()
-  // smoothNavigation()
+  smoothNavigation()
 });
 
 showCaseFilterFunction()

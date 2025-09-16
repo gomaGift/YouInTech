@@ -47,13 +47,12 @@ export function smoothNavigation() {
 
 // chat bot
 export function loadChatbot() {
-  // const script = document.createElement("script")
-  // script.src =
-  //   "https://cdn.jotfor.ms/agent/embedjs/019951a1fd0c7220bdc72d89988f2d1c571a/embed.js";
-  // script.async = true
-  // script.defer = true
-  // document.body.appendChild(script)
-  console.log("this")
+  const script = document.createElement("script")
+  script.src =
+    "https://cdn.jotfor.ms/agent/embedjs/019951a1fd0c7220bdc72d89988f2d1c571a/embed.js";
+  script.async = true
+  script.defer = true
+  document.body.appendChild(script)
 }
 
 export async function loadComponent(id: string, file: string) {

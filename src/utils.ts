@@ -12,7 +12,7 @@ export const toggleMenuBar = () => {
 export function smoothNavigation() {
 
     document.querySelectorAll<HTMLAnchorElement>(".nav-links a").forEach((link) => {
-      link.addEventListener("click", async (e) => {
+      link.addEventListener("click", async () => {
         // e.preventDefault(); // stop full reload
     
         const url = link.getAttribute("href");

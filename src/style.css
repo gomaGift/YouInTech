@@ -61,7 +61,7 @@ nav {
   top: 0;
   width: 100%;
   padding: 1.5rem 50px;
-  background: linear-gradient(45deg, #00cc44, #ff8800);
+  background: linear-gradient(45deg, #2E7D32, #ff8800);
   border-bottom: 1px solid rgba(255, 136, 0, 0.2);
   z-index: 1000;
   display: flex;
